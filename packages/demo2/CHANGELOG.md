@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.6](https://github.com/chenxu-javascript/lerna/compare/@tencent/demo2@1.0.5...@tencent/demo2@1.0.6) (2022-01-16)
+
+
+### Bug Fixes
+
+* 版本5 ([c14c952](https://github.com/chenxu-javascript/lerna/commit/c14c9522d9a3363af9af0d173c779eb2e360f062))
+
+
+
+
+
 ## 1.0.5 (2022-01-16)
 
 
