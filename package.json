@@ -6,7 +6,7 @@
   },
   "scripts": {
     "prerelease": "lerna version --no-push --conventional-commits --yes",
-    "release": "npm run postrelease && lerna publish from-git --yes",
+    "release": "lerna publish from-git --yes",
     "released": "lerna publish from-package --yes",
     "postrelease": "git push --follow-tags origin"
   }
