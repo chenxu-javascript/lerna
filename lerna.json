@@ -1,0 +1,20 @@
+{
+  "packages": ["packages/*"],
+  "version": "independent",
+  "ignoreChanges": ["**/*.md", "**/__tests/**", "**/package-lock.json"],
+  "command": {
+    "add": {
+      "registry": "https://mirrors.tencent.com/npm/"
+    },
+    "create": {
+      "registry": "https://mirrors.tencent.com/npm/",
+      "access": "restricted"
+    },
+    "publish": {
+      "registry": "https://mirrors.tencent.com/npm/",
+      "verifyAccess": false,
+      "conventionalCommits": true,
+      "ignoreChanges": ["*.md", "*/test/*"]
+    }
+  }
+}
